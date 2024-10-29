@@ -2,12 +2,19 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'loop'
+copyright = '2024, TJLA'
+author = 'TJLA'
 
 release = '0.1'
 version = '0.1.0'
+
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path('..', '..').resolve()))
+
+print('SYS PATH:')
+print(sys.path)
 
 # -- General configuration
 

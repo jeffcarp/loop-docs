@@ -1,7 +1,5 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
-
-   lumache
+.. toctree::
+    actions.* <loop.actions>
